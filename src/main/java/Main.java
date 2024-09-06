@@ -13,7 +13,7 @@ public class Main {
         final int PORT = get.integer("Type PORT value: ");
 
         // Create server
-        InetSocketAddress address = null;
+        InetSocketAddress address;
         try {
             // Try assigning address
             address = new InetSocketAddress(PORT);
